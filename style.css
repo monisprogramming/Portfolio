@@ -1,0 +1,257 @@
+*{
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+font-family:'Indie Flower', cursive;
+}
+header{ 
+   
+    margin-bottom: -30px;
+    background: no-repeat url("./2022/JPG/JPG/LOSJPG/folk/doorpurple-13.jpg");
+    background-size:cover;
+    position:top;
+    height: calc(420px - 10px);
+}
+ 
+img { 
+      max-width: 100%; 
+    } 
+
+nav a.active:hover {
+    background: rgb(229, 43, 250);
+    transition:0.3s;
+    line-height: 20px;
+    opacity: 9;
+}
+
+    
+nav ul li{
+float:right;
+display: inline-block;
+flex-wrap:inline;
+line-height: 80px;
+margin: 0 5px;
+
+}
+
+nav ul li a{
+background-color: #e34709;
+color: rgb(163, 166, 198);
+font-size: 18px;
+padding: 7px 13px;
+border-radius: 3px;
+text-transform: uppercase;
+transition: .5s;
+}
+
+a.active:hover{
+background:#96c3c2;
+transition: all ease 0.3s;
+}
+
+a.active:hover ul{
+    position:fixed ;
+    width: 100%;
+    text-align: center;
+    transition:all .5s;
+  }
+ 
+header p{
+opacity: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: inline-block;
+    justify-content:center;
+    align-items: center;
+font-size:25px;
+color: #96c3c2;
+}
+
+body {
+    
+    background-image: url(./2022/JPG/JPG/LOSJPG/archit/doorpurple-10.jpg); 
+      background-position:center;
+    /*background-color: rgb(143, 159, 179);*/
+    font-family:'Indie Flower', cursive;
+    display: inline-block;                                                             
+    max-width:fit-content;
+    
+}
+   
+.cards {
+    display: grid;
+
+    grid-template-columns:
+    repeat(auto-fill, 
+    minmax(230px, 1fr)) ;
+
+    grid-gap:20px;
+
+}
+
+.card {
+    display: grid;
+    grid-template-rows:
+     max-content 200px 1fr;
+}
+
+.card img {
+    object-fit: cover;
+width: 100%;
+height: 100%;
+}
+
+
+ #blog-box1{
+      float:none;
+    background-color: rgba(255, 206, 31, 0.905);
+     box-shadow:rgb(255, 255, 255);
+     box-shadow: 2px 2px 2px;
+    margin: left 15px;
+}
+            
+#blog-box2{
+    float:none;
+    background-color: rgba(203, 23, 23, 0.544);
+  box-shadow: 2px 2px 2px;
+    margin: left 15px;
+                }
+            
+#blog-box3{
+                float: right;
+               background-color: rgba(179, 201, 191, 0.544);
+                box-shadow:brown;
+                box-shadow: 2px 2px 2px;
+                margin: left 15px;
+            }
+
+
+p{
+    color:rgb(255, 238, 0);
+    font-size: 16px;
+    position: flex;
+    display:inline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin left: 30px;
+ 
+}
+
+
+
+
+a {
+    text-decoration:none;
+   stop-color:rgb(141, 134, 161);
+}
+
+
+
+ h2{
+    display: inline-block;
+    font size: 2.5rem;
+    color: rgb(255, 243, 200,0.544) ;
+    font-weight: 400;
+}
+ h3{
+    font-size: 3.0;
+    color:rgb(255, 243, 200,0.544);
+    font-weight: 500;
+}
+
+#cards{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+
+.blog-img{
+
+    width:100%;
+    height: auto;
+}
+
+article img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    object-position:center;
+}
+
+#blog-box1 h2{
+    color:rgb(57, 24, 8)}
+
+
+.blog-title{
+    font-style: oblique;
+    color: #870000;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    font-weight: 400;
+
+}
+
+p h2{
+    color: rgb(69, 56, 34);
+
+
+}
+/*add :hover to make the title dissapear/reappear*/
+h2 {
+    color: rgb(255, 162, 2);
+    transition: all ease 0.3s;
+    
+}
+h3{
+    color: rgb(255, 162, 2);
+    transition: all ease 0.3s;
+    
+
+}
+
+
+
+footer {
+    justify-items:flex-end;
+    margin-top: 180px;
+    position:center;
+    background-color: rgb(255, 182, 11);
+}
+
+footer .footer-nav{
+    margin-bottom: 0px;
+}
+
+@media(max-width:200px){
+    .blog-box1 #cards{
+        width: 1200px;
+        margin:5px 5px;
+    }
+}
+
+@media screen and (max-width:300px){
+    .blog-box2 { 
+        resize: 700px;
+        width:200px;
+        margin:5px 5px;
+    }
+}
+@media screen and (max-width:300px){
+    .blog-box3 #cards{
+        width: 200px;
+        margin:5px 5px;
+    }
+    }
+@media screen and (max-width:300px){
+    .header
+}
+
