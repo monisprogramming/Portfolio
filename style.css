@@ -1,0 +1,269 @@
+*{
+margin: 0px;
+padding: 0px;
+list-style: none;
+box-sizing: border-box;
+font-family:'Indie Flower', cursive;
+}
+
+header{ 
+    background: url("./IMG/LOSJPG/folk/doorpurple-13.jpg") 50% 50%/100% no-repeat fixed;
+    background-size:cover;
+    justify-content:center;
+    background-repeat: no-repeat;
+    margin-bottom: -5px;
+    background-attachment: fixed; 
+}
+
+
+nav a.active:hover {
+    background: rgb(161, 142, 173);
+    transition:0.3s;
+    line-height: 10px;
+    
+}
+
+    
+nav ul li{
+float:right;
+flex-wrap:inline;
+line-height: 60px;
+margin: 5px;
+position:static;
+margin-top: -3.5%;
+
+}
+
+nav ul li a{
+background-color: #dcad9a;
+color: rgb(102, 104, 121);
+font-size: 18px;
+padding: 7px 13px;
+border-radius: 3px;
+text-transform: uppercase;
+transition: .5s;
+}
+
+
+
+a.active:hover ul{
+    position:fixed ;
+    width: 100%;
+    text-align: center;
+    transition:all .5s;
+  }
+  
+ 
+  a.active:hover{
+    background:#96c3c2;
+    transition: all ease 0.3s;
+    }
+
+header p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display:flow-root;
+    justify-content:center;
+    height: 430px;
+font-size:25px;
+color: #96c3c2;
+}
+
+body { 
+    background-image: url(./IMG/LOSJPG/archit/doorpurple-10.jpg) ;
+    background-repeat:repeat-x;
+    background-size:100% 100%;
+    margin-bottom: 125px;
+margin-top: 0%;
+    
+}
+
+body {
+      padding: 0;
+    font-family:'Indie Flower', cursive;
+    display: inline-block;  
+    justify-content: center;                                                         
+   
+    
+}
+ 
+/*I had a really hard time arranging 
+to columns . I still have not figure out how to
+properly size my photos and columns -box-1
+needs works */
+.cards {
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fill, 
+    minmax(350px,auto)) ;
+    grid gap: 5px;
+           
+        }
+    .card {
+            margin-top: 15%;
+
+}
+/* .card {
+    margin-top: -70%;
+        height: auto;
+        width: 300px;
+        display:grid;
+        grid-template-rows: max-content 300px auto;
+    }
+    */
+
+/* in the future
+all cards will take you to a next page 
+with a full story of the card preview 
+plus photography*/
+  
+     
+    
+       
+   .card img { 
+        max-height: 100%;
+        max-width: 100%;
+    
+       } 
+    
+       
+
+.navbar {
+    padding-top: 5.5%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+}
+
+
+
+ 
+ #blog-box2{
+      float:left;
+    background-color: rgba(154, 10, 168, 0.905);
+     box-shadow:rgb(99, 39, 39) 2px 2px 2px 2px;
+
+    margin-left: 5%;
+}
+            
+#blog-box3{
+    float:center;
+    background-color: rgba(126, 95, 136, 0.944);
+  box-shadow: #4e3f58 2px 2px 2px 2px;
+    margin-left:5%;
+                }
+            
+#blog-box1{
+    float: right; 
+               background-color: rgba(18, 60, 199, 0.9);
+                box-shadow:brown;
+                box-shadow:#889ed7 2px 2px 2px;
+                margin-left: 5%;
+            }
+
+
+ p{
+    color:rgb(255, 238, 0);
+    margin-top: 00px;
+    font-size: 16px;
+    display:inline;
+    margin left: 20px;
+ 
+}
+
+/*h2{
+   
+
+for footer
+}*/
+
+ /*belongs to footer, needs fixing
+ h2{
+    
+    font size: 25px;
+    font-weight: 400;
+    display: inline-block;
+}*/
+
+
+
+
+#blog-box1 h2{
+    
+    color:#908daf;}
+#blog-box2 h2{
+        color:#908daf;}
+
+#blog-box3 h2{
+    color:#908daf;}
+
+
+
+.blog-title{
+    font-style: oblique;
+    color: #908daf;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90%;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+
+
+h2 {
+    color: rgb(255, 162, 2);
+    transition: all ease 0.3s;
+    
+}
+h3{
+    color: rgb(255, 162, 2);
+    transition: all ease 0.3s;
+    
+
+}
+
+
+
+footer {
+    background-color: #96c3c2 ;
+   display:inline-block;
+   size: cover;
+
+    position:fixed;
+
+}
+
+footer .footer-navbar{
+   
+    float: right;
+}
+
+@media only screen and (max-width:1800px){
+    .blog-box1 {
+        height: 60%;
+        width: 80%;
+        margin:5px 5px;
+        
+    }
+}
+
+@media only screen and (max-width:1800px){
+    .blog-box2 { 
+        height:60%;
+        width:80%;
+        margin:5px 5px;
+    }
+}
+@media only screen and (max-width:1800px){
+    .blog-box3 {
+        height:60%;
+        width: 80%;
+        margin:5px 5px;
+    }
+    }
+
